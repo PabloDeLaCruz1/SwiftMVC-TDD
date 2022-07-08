@@ -16,6 +16,12 @@
 		FEE045E028787C8B00EE79D2 /* SwiftMVC_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045DF28787C8B00EE79D2 /* SwiftMVC_TDDTests.swift */; };
 		FEE045EA28787C8B00EE79D2 /* SwiftMVC_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045E928787C8B00EE79D2 /* SwiftMVC_TDDUITests.swift */; };
 		FEE045EC28787C8B00EE79D2 /* SwiftMVC_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045EB28787C8B00EE79D2 /* SwiftMVC_TDDUITestsLaunchTests.swift */; };
+		FEE045F928787CEE00EE79D2 /* AccountModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045F828787CEE00EE79D2 /* AccountModelProtocol.swift */; };
+		FEE045FC28787D1A00EE79D2 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045FB28787D1A00EE79D2 /* AccountModel.swift */; };
+		FEE045FE28787D7400EE79D2 /* AccountModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045FD28787D7400EE79D2 /* AccountModelTests.swift */; };
+		FEE0460028787DF000EE79D2 /* AccountViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE045FF28787DF000EE79D2 /* AccountViewProtocol.swift */; };
+		FEE046042878A32A00EE79D2 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE046032878A32A00EE79D2 /* ViewControllerTest.swift */; };
+		FEE046062878A5A500EE79D2 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE046052878A5A500EE79D2 /* AccountView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		FEE045E528787C8B00EE79D2 /* SwiftMVC-TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftMVC-TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE045E928787C8B00EE79D2 /* SwiftMVC_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMVC_TDDUITests.swift; sourceTree = "<group>"; };
 		FEE045EB28787C8B00EE79D2 /* SwiftMVC_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMVC_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEE045F828787CEE00EE79D2 /* AccountModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelProtocol.swift; sourceTree = "<group>"; };
+		FEE045FB28787D1A00EE79D2 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		FEE045FD28787D7400EE79D2 /* AccountModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelTests.swift; sourceTree = "<group>"; };
+		FEE045FF28787DF000EE79D2 /* AccountViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewProtocol.swift; sourceTree = "<group>"; };
+		FEE046032878A32A00EE79D2 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		FEE046052878A5A500EE79D2 /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		FEE045C728787C8900EE79D2 /* SwiftMVC-TDD */ = {
 			isa = PBXGroup;
 			children = (
+				FEE045FA28787D1100EE79D2 /* Model */,
 				FEE045C828787C8900EE79D2 /* AppDelegate.swift */,
 				FEE045CA28787C8900EE79D2 /* SceneDelegate.swift */,
 				FEE045CC28787C8900EE79D2 /* ViewController.swift */,
@@ -106,6 +119,9 @@
 				FEE045D128787C8B00EE79D2 /* Assets.xcassets */,
 				FEE045D328787C8B00EE79D2 /* LaunchScreen.storyboard */,
 				FEE045D628787C8B00EE79D2 /* Info.plist */,
+				FEE045F828787CEE00EE79D2 /* AccountModelProtocol.swift */,
+				FEE045FF28787DF000EE79D2 /* AccountViewProtocol.swift */,
+				FEE046052878A5A500EE79D2 /* AccountView.xib */,
 			);
 			path = "SwiftMVC-TDD";
 			sourceTree = "<group>";
@@ -114,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				FEE045DF28787C8B00EE79D2 /* SwiftMVC_TDDTests.swift */,
+				FEE045FD28787D7400EE79D2 /* AccountModelTests.swift */,
+				FEE046032878A32A00EE79D2 /* ViewControllerTest.swift */,
 			);
 			path = "SwiftMVC-TDDTests";
 			sourceTree = "<group>";
@@ -125,6 +143,14 @@
 				FEE045EB28787C8B00EE79D2 /* SwiftMVC_TDDUITestsLaunchTests.swift */,
 			);
 			path = "SwiftMVC-TDDUITests";
+			sourceTree = "<group>";
+		};
+		FEE045FA28787D1100EE79D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEE045FB28787D1A00EE79D2 /* AccountModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE046062878A5A500EE79D2 /* AccountView.xib in Resources */,
 				FEE045D528787C8B00EE79D2 /* LaunchScreen.storyboard in Resources */,
 				FEE045D228787C8B00EE79D2 /* Assets.xcassets in Resources */,
 				FEE045D028787C8900EE79D2 /* Main.storyboard in Resources */,
@@ -258,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE0460028787DF000EE79D2 /* AccountViewProtocol.swift in Sources */,
+				FEE045FC28787D1A00EE79D2 /* AccountModel.swift in Sources */,
 				FEE045CD28787C8900EE79D2 /* ViewController.swift in Sources */,
+				FEE045F928787CEE00EE79D2 /* AccountModelProtocol.swift in Sources */,
 				FEE045C928787C8900EE79D2 /* AppDelegate.swift in Sources */,
 				FEE045CB28787C8900EE79D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -269,6 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE045E028787C8B00EE79D2 /* SwiftMVC_TDDTests.swift in Sources */,
+				FEE045FE28787D7400EE79D2 /* AccountModelTests.swift in Sources */,
+				FEE046042878A32A00EE79D2 /* ViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
